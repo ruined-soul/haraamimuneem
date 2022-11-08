@@ -73,6 +73,7 @@ def ping(bot: Bot, update: Update):
     uptime = get_readable_time((time.time() - StartTime))
 
     reply_msg = ("PONG!!\n"
+                 "Jinda hu madarchod!!\n"
                  "<b>Time Taken:</b> <code>{}</code>\n"
                  "<b>Service uptime:</b> <code>{}</code>".format(telegram_ping, uptime))
 
